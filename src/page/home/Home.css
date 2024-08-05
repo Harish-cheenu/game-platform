@@ -1,0 +1,113 @@
+.home-page {
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  .welcome-section {
+    margin-bottom: 40px;
+  }
+  
+  .games-section {
+    margin-top: 40px;
+    text-align: left;
+    max-width: 800px;
+    margin: 40px auto;
+  }
+  
+  .games-section h2 {
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    text-align: center;
+  }
+  
+  .games-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .game-card {
+    background-color: var(--background-color);
+    padding: 20px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .game-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .game-card h3 {
+    margin-top: 0;
+    color: var(--fire-engine-red);
+  }
+  
+  .game-card p {
+    margin: 10px 0;
+  }
+  
+  .game-video {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .play-btn {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .play-btn:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  .play-btn:disabled {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    cursor: not-allowed;
+  }
+  
+  .details-section {
+    margin-top: 40px;
+    text-align: left;
+    max-width: 800px;
+    margin: 40px auto;
+  }
+  
+  .details-section h2 {
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    text-align: center;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background-color: var(--background-color);
+    padding: 20px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .details-content {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .details-content p {
+    margin: 10px 0;
+  }
+  

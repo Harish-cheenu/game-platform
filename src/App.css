@@ -1,0 +1,73 @@
+:root {
+  --primary-color: #235789;
+  --secondary-color: #f1d302;
+  --text-color: #161925;
+  --background-color: #fdfffc;
+  --highlight-color: #c1292e;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-layout {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.btn {
+  background-color: var(--highlight-color);
+  color: #ffff;
+  border: none;
+  padding: .5rem .8rem;
+  cursor: pointer;
+  margin-left: 10px;
+  font-weight: bold;
+  border-radius: .3rem;
+}
+
+.btn:hover {
+  background-color: var(--highlight-color);
+  opacity: 0.9;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+}
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+
+.dark-mode {
+  --background-color: #161925;
+  --text-color: #fdfffc;
+}
+
+.light-mode {
+  --background-color: #fdfffc;
+  --text-color: #161925;
+}
+
+.no-style-link {
+  text-decoration: none;
+  color: inherit;
+}
