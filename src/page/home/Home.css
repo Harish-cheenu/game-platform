@@ -93,6 +93,7 @@
   .details {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 1rem;
     background-color: var(--background-color);
     padding: 20px;
